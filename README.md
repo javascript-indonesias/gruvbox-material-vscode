@@ -6,37 +6,37 @@
 𝐇𝐚𝐫𝐝 𝐃𝐚𝐫𝐤
 </h2>
 
-![hard-dark](https://user-images.githubusercontent.com/37491630/67563265-dca6cd80-f70f-11e9-9068-5bff3ea2cd71.png)
+![hard-dark](https://user-images.githubusercontent.com/37491630/69468765-61bfe980-0d85-11ea-86c8-3d7e062986a5.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐃𝐚𝐫𝐤
 </h2>
 
-![medium-dark](https://user-images.githubusercontent.com/37491630/67563286-e2041800-f70f-11e9-895f-141a92442113.png)
+![medium-dark](https://user-images.githubusercontent.com/37491630/69468770-671d3400-0d85-11ea-85a7-cf7ffedab468.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐃𝐚𝐫𝐤
 </h2>
 
-![soft-dark](https://user-images.githubusercontent.com/37491630/67563298-e6c8cc00-f70f-11e9-9dea-09419d15a0bc.png)
+![soft-dark](https://user-images.githubusercontent.com/37491630/69468776-6a182480-0d85-11ea-863c-834a9f77f2dc.png)
 
 <h2 align="center">
 𝐇𝐚𝐫𝐝 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![hard-light](https://user-images.githubusercontent.com/37491630/67563276-dfa1be00-f70f-11e9-9883-906ee7f250c6.png)
+![hard-light](https://user-images.githubusercontent.com/37491630/69468766-62f11680-0d85-11ea-9196-d7e2dcc66d36.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![medium-light](https://user-images.githubusercontent.com/37491630/67563291-e3cddb80-f70f-11e9-99f9-e9fccd2a8407.png)
+![medium-light](https://user-images.githubusercontent.com/37491630/69468774-684e6100-0d85-11ea-9510-3cdfda682690.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![soft-light](https://user-images.githubusercontent.com/37491630/67563307-e9c3bc80-f70f-11e9-9504-0d3b364ab4d1.png)
+![soft-light](https://user-images.githubusercontent.com/37491630/69468778-6c7a7e80-0d85-11ea-8e49-5f41f7c4e222.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
@@ -129,12 +129,6 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 
 ## Contribution
 
-To be honest, I'm not an advanced user of vscode, I port gruvbox-material to vscode just because I need an eye-friendly working environment in Windows (WSL is painful).
-
-The workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox), but many of them haven't been tested because I don't know where I can see them, and I can't optimize popular extensions for the same reason. The only thing I can do is to optimize common file types.
-
-Therefore, if you feel that some workbench colors are weird, feel free to open a PR :)
-
 To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
 
 [Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
@@ -150,7 +144,8 @@ See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-mater
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
 - [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
 - [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
+- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio): icon for this extension
 
 ## License
 
-[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE), [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
+[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) && [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
