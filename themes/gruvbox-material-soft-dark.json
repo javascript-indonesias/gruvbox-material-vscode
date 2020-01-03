@@ -221,7 +221,7 @@
             "name": "Markdown heading1",
             "scope": "heading.1.markdown, markup.heading.setext.1.markdown",
             "settings": {
-                "foreground": "#e78a4e",
+                "foreground": "#ea6962",
                 "fontStyle": "bold"
             }
         },
@@ -229,7 +229,7 @@
             "name": "Markdown heading2",
             "scope": "heading.2.markdown, markup.heading.setext.2.markdown",
             "settings": {
-                "foreground": "#7daea3",
+                "foreground": "#e78a4e",
                 "fontStyle": "bold"
             }
         },
@@ -245,7 +245,7 @@
             "name": "Markdown heading4",
             "scope": "heading.4.markdown",
             "settings": {
-                "foreground": "#89b482",
+                "foreground": "#a9b665",
                 "fontStyle": "bold"
             }
         },
@@ -253,7 +253,7 @@
             "name": "Markdown heading5",
             "scope": "heading.5.markdown",
             "settings": {
-                "foreground": "#ea6962",
+                "foreground": "#7daea3",
                 "fontStyle": "bold"
             }
         },
@@ -609,7 +609,7 @@
         // JavaScript{{{
         {
             "name": "JavaScript white",
-            "scope": "meta.brace.round.js, meta.brace.square.js",
+            "scope": "meta.brace.round.js, meta.brace.square.js, meta.brace.curly.js",
             "settings": {
                 "foreground": "#d4be98"
             }
@@ -629,15 +629,22 @@
             }
         },
         {
+            "name": "JavaScript yellow",
+            "scope": "punctuation.quasi.element.begin.js, punctuation.quasi.element.end.js",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
             "name": "JavaScript aqua",
-            "scope": "constant.language.infinity.js",
+            "scope": "constant.language.infinity.js, string.unquoted.js",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "JavaScript purple",
-            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js",
+            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js, constant.other.label.js",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -756,6 +763,36 @@
         {
             "name": "TSX purple",
             "scope": "keyword.operator.spread.tsx, variable.language.this.tsx, storage.type.function.arrow.tsx, variable.other.object.tsx",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // VUE{{{
+        {
+            "name": "VUE grey",
+            "scope": "punctuation.definition.tag.html",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "VUE orange",
+            "scope": "entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.script.html, entity.name.tag.inline.any.html, entity.name.tag.structure.any.html, entity.name.tag.style.html, entity.name.tag.doctype.html",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "VUE aqua",
+            "scope": "meta.tag.other.html, meta.tag.inline.any.html, meta.tag.block.any.html",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "VUE purple",
+            "scope": "entity.name.label.js",
             "settings": {
                 "foreground": "#d3869b"
             }
