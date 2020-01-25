@@ -40,29 +40,37 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/gruvbox-material/vscode">Repository</a> |
+  <a href="https://github.com/gruvbox-material/vscode/issues">Issues</a> |
+  <a href="https://github.com/gruvbox-material/vscode/blob/master/CHANGELOG.md">Changelog</a>
   <br><br>
 </p>
 
-This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
+This color scheme is a port of [Gruvbox Material](https://github.com/gruvbox-material/gruvbox-material) for Visual Studio Code. 
 
-> In my opinion, the very first thing a color scheme should do is to be eye-friendly, anything else is secondary. This requires soft contrast and low blue light.
->
-> Gruvbox Material is based on Gruvbox, but with a very different color palette, I'm trying to adjust the foreground colors to match these requirements.
+> Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
-## Contribution
+## Installation
 
-To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
+### Via Marketplace
 
-[Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
+1. Press extensions icon in your vscode.
+2. Search `sainnhe.gruvbox-material`.
+3. Select this extension and press `install` button.
 
-[Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
+### Via Quick Open
 
-## Related Projects
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-material#related-projects)
+```
+ext install sainnhe.gruvbox-material
+```
+
+## Usage
+
+1. Click the gear button in the lower left corner.
+2. Click `Color Theme`.
+3. Select Gruvbox Material in the list.
 
 ## FAQ
 
@@ -191,13 +199,28 @@ Example config(enable italic in all themes):
     }
 ```
 
-## Thanks to
+## Related Projects
+
+See [gruvbox-material/gruvbox-material](https://github.com/gruvbox-material/gruvbox-material)
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/master/CONTRIBUTING.md)
+
+## Credits
+
+- The color palette is based on [gruvbox](https://github.com/morhetz/gruvbox) by [@morhetz](https://github.com/morhetz)
+- The color palette is adjusted by [@sainnhe](https://github.com/sainnhe)
+- Workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
+- The icon is designed by [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
+
+## Inspirations
 
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
-- [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
-- [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
-- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio): icon for this extension
+- [atom.io](https://atom.io): the `white` color in the dark variant
+- [zefei/cake16](https://github.com/zefei/cake16): the `black` color in the light variant
+- [Google Material Design](https://www.material.io)
 
 ## License
 
-[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) && [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
+[MIT License](https://github.com/gruvbox-material/vscode/blob/master/LICENSE) © Gruvbox Material
