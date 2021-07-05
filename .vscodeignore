@@ -1,4 +1,12 @@
-.vscode/**
-.vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+.flag
+*.vsix
+**/*.ts
+tsconfig.json
+icon.svg
+out/hook
+.github
+CONTRIBUTING.md
+.husky
+.eslintrc.js
+.eslintignore
